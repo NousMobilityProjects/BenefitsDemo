@@ -28,6 +28,7 @@
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
+                <!--  Place all Options here  -->
                 <StackLayout
                     Grid.Row="0"
                     Grid.Column="0"
