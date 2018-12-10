@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using Foundation;
+﻿using Foundation;
 using UIKit;
+using XamEffects;
 
 namespace BenefitsDemo.iOS
 {
@@ -23,6 +20,7 @@ namespace BenefitsDemo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            XamEffects.iOS.Effects.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
