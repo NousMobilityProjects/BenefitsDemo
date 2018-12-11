@@ -1,4 +1,6 @@
 ﻿using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using System;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -12,7 +14,7 @@ namespace BenefitsDemo
         public ICommand OnClaimActivityClick => new Command(GoToClaimActivityPage);
         public ICommand OnBenefitsClick => new Command(GoToBenefitsPage);
         public ICommand OnIDCardClick => new Command(GoToIDCardPage);
-        public ICommand OnContactUsClick => new Command(GoToContactUsPage); 
+        public ICommand OnContactUsClick => new Command(GoToContactUsPage);
         #endregion
 
         #region CommandMethods
